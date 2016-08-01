@@ -1,0 +1,36 @@
+
+/*** Table Styles **/
+
+th {
+  color: #D5DDE5;;
+  background: #1b1e24;
+  font-size: 1em;
+  font-weight: normal;
+  padding: 0.3em 0.5em 0.3em 0.5em;
+  text-align: left;
+  vertical-align: middle;
+}
+
+tr {
+  font-size: 1em;
+  font-weight: normal;
+}
+ 
+td {
+  padding: 0.1em 0.5em 0.1em 0.5em;
+} 
+
+tr:hover td {
+  background:#4E5066;
+  color:#FFFFFF;
+}
+
+tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+
+tr:nth-child(odd):hover td {
+  background:#4E5066;
+}
+
+
