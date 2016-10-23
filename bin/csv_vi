@@ -1,0 +1,3 @@
+#! /bin/bash
+
+csv $1 | vi -R -c "set nowrap" -
